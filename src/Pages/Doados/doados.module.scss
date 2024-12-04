@@ -1,0 +1,27 @@
+.boxDoados {
+    // border: 2px solid red;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxBooks {
+    // border: 2px solid red;
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    article {
+        // border: 2px solid red;
+        width: 15vw;
+        height: 32vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 15px;
+    }
+}
