@@ -10,20 +10,20 @@ export default function header() {
     return (
         <BrowserRouter>
             <header>
-                <section>
-                    <img src="{logo}" alt="" />
+                <section className={S.boxLogo}>
+                    <img src={logo} alt="imagem livro" />
                     <h1>Livros Vai na Web</h1>
                 </section>
-                <nav>
+                <nav className={S.boxMenu}>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/doados">Doados</Link></li>
                         <li><Link to="/quero-doar">Quero Doar</Link></li>
                     </ul>
                 </nav>
-                <div>
-                    <input type="text" />
-                    <img src="{search}" alt="" />
+                <div className={S.boxInput}>
+                    <input type="text" placeholder="O que você procura?" />
+                    <img src={search} alt="imagem lupa" />
                 </div>
 
             </header>
