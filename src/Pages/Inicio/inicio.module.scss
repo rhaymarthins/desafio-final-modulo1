@@ -1,7 +1,7 @@
 .post {
     background-image: url("../../assets/banner.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 81vh;
     display: flex;
     align-items: center;
@@ -54,5 +54,62 @@
             text-align: center;
             font-size: 1.2vw;
         }
+    }
+}
+
+@media(max-width: 1000px) {
+    .boxCard {
+        article {
+            p {
+                font-size: 1.5vw;
+            }
+        }
+    }
+}
+
+@media(max-width: 780px) {
+    .post {
+        justify-content: center;
+
+        h2 {
+            // border: 2px solid red;
+            width: 80%;
+            margin-left: 0;
+            text-align: center;
+            font-size: 28px;
+        }
+    }
+
+    .devoDoar {
+        height: 120vh;
+
+        div {
+            justify-content: center;
+
+            h2 {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .boxCard {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        article {
+            width: 230px;
+            height: 38vh;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media(max-width: 479px) {
+    .devoDoar {
+        height: 190vh;
     }
 }

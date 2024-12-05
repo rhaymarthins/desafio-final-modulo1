@@ -17,7 +17,7 @@ export default function header() {
                 <nav className={S.boxMenu}>
                     <ul>
                         <li><Link to="/">Inicio</Link></li>
-                        <li><Link to="/doados">Doados</Link></li>
+                        <li><Link to="/doados">Livros Doados</Link></li>
                         <li><Link to="/quero-doar">Quero Doar</Link></li>
                     </ul>
                 </nav>
