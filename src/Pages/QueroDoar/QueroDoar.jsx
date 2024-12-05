@@ -1,5 +1,5 @@
-import S from "./queroDoar.module.scss";
-import livro from "../../assets/book.png";
+import S from "./queroDoar.module.scss"
+import livro from "../../assets/book.png"
 
 export default function QueroDoar() {
     return (

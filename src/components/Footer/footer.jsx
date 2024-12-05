@@ -1,9 +1,9 @@
-import facebook from "../../assets/facebook.png";
-import twitter from "../../assets/twitter.png";
-import youtube from "../../assets/youtube.png";
-import linkedin from "../../assets/linkedin.png";
-import instagram from "../../assets/instagram.png";
-import S from "./footer.module.scss";
+import facebook from "../../assets/facebook.png"
+import twitter from "../../assets/twitter.png"
+import youtube from "../../assets/youtube.png"
+import linkedin from "../../assets/linkedin.png"
+import instagram from "../../assets/instagram.png"
+import S from "./footer.module.scss"
 
 export default function Footer() {
     return (

@@ -1,8 +1,8 @@
-import S from "./inicio.module.scss";
-import reading from "../../assets/reading.png";
-import community from "../../assets/community.png";
-import transform from "../../assets/transform.png";
-import balance from "../../assets/balance.png";
+import S from "./inicio.module.scss"
+import reading from "../../assets/reading.png"
+import community from "../../assets/community.png"
+import transform from "../../assets/transform.png"
+import balance from "../../assets/balance.png"
 
 export default function Inicio() {
     return (

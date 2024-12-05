@@ -1,7 +1,7 @@
-import S from "./doados.module.scss";
-import livro from "../../assets/livro.png";
-import livro2 from "../../assets/livro2.jpg";
-import livro3 from "../../assets/livro3.jpg";
+import S from "./doados.module.scss"
+import livro from "../../assets/livro.png"
+import livro2 from "../../assets/livro2.jpg"
+import livro3 from "../../assets/livro3.jpg"
 
 export default function Doados() {
     return (
