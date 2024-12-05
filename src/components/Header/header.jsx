@@ -1,9 +1,9 @@
 import logo from "../../assets/logo.png"
 import search from "../../assets/search.png"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
-import Inicio from "../../Pages/Inicio/inicio"
-import Doados from "../../Pages/Doados/doados"
-import QueroDoar from "../../Pages/QueroDoar/QueroDoar"
+import Inicio from "../../Pages/Inicio/Inicio.jsx"
+import Doados from "../../Pages/Doados/Doados.jsx"
+import QueroDoar from "../../Pages/QueroDoar/QueroDoar.jsx"
 import S from "./header.module.scss"
 
 export default function header() {
